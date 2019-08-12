@@ -44,7 +44,7 @@ public class User {
     @Autowired
 	@Version
     @Generated(GenerationTime.ALWAYS)
-    @Type(type ="vhcsoft.com.vhcsoft.blog.versioning.entities.DBVersionType")
+    //@Type(type ="vhcsoft.com.vhcsoft.blog.versioning.entities.DBVersionType")
     private Long version;
     
 }
